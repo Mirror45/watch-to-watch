@@ -20,7 +20,11 @@
     "downlevelIteration": true,
     "isolatedModules": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
